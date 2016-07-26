@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAED82C01D47A2D2008F24ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED82BF1D47A2D2008F24ED /* main.m */; };
+		AAED82C31D47A2D2008F24ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED82C21D47A2D2008F24ED /* AppDelegate.m */; };
+		AAED82C61D47A2D2008F24ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED82C51D47A2D2008F24ED /* ViewController.m */; };
+		AAED82C91D47A2D2008F24ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAED82C71D47A2D2008F24ED /* Main.storyboard */; };
+		AAED82CB1D47A2D2008F24ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAED82CA1D47A2D2008F24ED /* Assets.xcassets */; };
+		AAED82CE1D47A2D2008F24ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAED82CC1D47A2D2008F24ED /* LaunchScreen.storyboard */; };
+		AAED82D91D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED82D81D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAED82D51D47A2D2008F24ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAED82B31D47A2D2008F24ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAED82BA1D47A2D2008F24ED;
+			remoteInfo = XHP_AlipayCustomKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAED82BB1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHP_AlipayCustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAED82BF1D47A2D2008F24ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAED82C11D47A2D2008F24ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAED82C21D47A2D2008F24ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAED82C41D47A2D2008F24ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAED82C51D47A2D2008F24ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAED82C81D47A2D2008F24ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAED82CA1D47A2D2008F24ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAED82CD1D47A2D2008F24ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAED82CF1D47A2D2008F24ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAED82D41D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHP_AlipayCustomKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAED82D81D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHP_AlipayCustomKeyboardTests.m; sourceTree = "<group>"; };
+		AAED82DA1D47A2D2008F24ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAED82B81D47A2D2008F24ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAED82D11D47A2D2008F24ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAED82B21D47A2D2008F24ED = {
+			isa = PBXGroup;
+			children = (
+				AAED82BD1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard */,
+				AAED82D71D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests */,
+				AAED82BC1D47A2D2008F24ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAED82BC1D47A2D2008F24ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAED82BB1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard.app */,
+				AAED82D41D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAED82BD1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AAED82C11D47A2D2008F24ED /* AppDelegate.h */,
+				AAED82C21D47A2D2008F24ED /* AppDelegate.m */,
+				AAED82C41D47A2D2008F24ED /* ViewController.h */,
+				AAED82C51D47A2D2008F24ED /* ViewController.m */,
+				AAED82C71D47A2D2008F24ED /* Main.storyboard */,
+				AAED82CA1D47A2D2008F24ED /* Assets.xcassets */,
+				AAED82CC1D47A2D2008F24ED /* LaunchScreen.storyboard */,
+				AAED82CF1D47A2D2008F24ED /* Info.plist */,
+				AAED82BE1D47A2D2008F24ED /* Supporting Files */,
+			);
+			path = XHP_AlipayCustomKeyboard;
+			sourceTree = "<group>";
+		};
+		AAED82BE1D47A2D2008F24ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAED82BF1D47A2D2008F24ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAED82D71D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAED82D81D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.m */,
+				AAED82DA1D47A2D2008F24ED /* Info.plist */,
+			);
+			path = XHP_AlipayCustomKeyboardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAED82BA1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAED82DD1D47A2D2008F24ED /* Build configuration list for PBXNativeTarget "XHP_AlipayCustomKeyboard" */;
+			buildPhases = (
+				AAED82B71D47A2D2008F24ED /* Sources */,
+				AAED82B81D47A2D2008F24ED /* Frameworks */,
+				AAED82B91D47A2D2008F24ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHP_AlipayCustomKeyboard;
+			productName = XHP_AlipayCustomKeyboard;
+			productReference = AAED82BB1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAED82D31D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAED82E01D47A2D2008F24ED /* Build configuration list for PBXNativeTarget "XHP_AlipayCustomKeyboardTests" */;
+			buildPhases = (
+				AAED82D01D47A2D2008F24ED /* Sources */,
+				AAED82D11D47A2D2008F24ED /* Frameworks */,
+				AAED82D21D47A2D2008F24ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAED82D61D47A2D2008F24ED /* PBXTargetDependency */,
+			);
+			name = XHP_AlipayCustomKeyboardTests;
+			productName = XHP_AlipayCustomKeyboardTests;
+			productReference = AAED82D41D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAED82B31D47A2D2008F24ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HaoHeHealth;
+				TargetAttributes = {
+					AAED82BA1D47A2D2008F24ED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AAED82D31D47A2D2008F24ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AAED82BA1D47A2D2008F24ED;
+					};
+				};
+			};
+			buildConfigurationList = AAED82B61D47A2D2008F24ED /* Build configuration list for PBXProject "XHP_AlipayCustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAED82B21D47A2D2008F24ED;
+			productRefGroup = AAED82BC1D47A2D2008F24ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAED82BA1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard */,
+				AAED82D31D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAED82B91D47A2D2008F24ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED82CE1D47A2D2008F24ED /* LaunchScreen.storyboard in Resources */,
+				AAED82CB1D47A2D2008F24ED /* Assets.xcassets in Resources */,
+				AAED82C91D47A2D2008F24ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAED82D21D47A2D2008F24ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAED82B71D47A2D2008F24ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED82C61D47A2D2008F24ED /* ViewController.m in Sources */,
+				AAED82C31D47A2D2008F24ED /* AppDelegate.m in Sources */,
+				AAED82C01D47A2D2008F24ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAED82D01D47A2D2008F24ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAED82D91D47A2D2008F24ED /* XHP_AlipayCustomKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAED82D61D47A2D2008F24ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAED82BA1D47A2D2008F24ED /* XHP_AlipayCustomKeyboard */;
+			targetProxy = AAED82D51D47A2D2008F24ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAED82C71D47A2D2008F24ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAED82C81D47A2D2008F24ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAED82CC1D47A2D2008F24ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAED82CD1D47A2D2008F24ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAED82DB1D47A2D2008F24ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAED82DC1D47A2D2008F24ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAED82DE1D47A2D2008F24ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHP_AlipayCustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-AlipayCustomKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAED82DF1D47A2D2008F24ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHP_AlipayCustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-AlipayCustomKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAED82E11D47A2D2008F24ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHP_AlipayCustomKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-AlipayCustomKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHP_AlipayCustomKeyboard.app/XHP_AlipayCustomKeyboard";
+			};
+			name = Debug;
+		};
+		AAED82E21D47A2D2008F24ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHP_AlipayCustomKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-AlipayCustomKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHP_AlipayCustomKeyboard.app/XHP_AlipayCustomKeyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAED82B61D47A2D2008F24ED /* Build configuration list for PBXProject "XHP_AlipayCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAED82DB1D47A2D2008F24ED /* Debug */,
+				AAED82DC1D47A2D2008F24ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAED82DD1D47A2D2008F24ED /* Build configuration list for PBXNativeTarget "XHP_AlipayCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAED82DE1D47A2D2008F24ED /* Debug */,
+				AAED82DF1D47A2D2008F24ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAED82E01D47A2D2008F24ED /* Build configuration list for PBXNativeTarget "XHP_AlipayCustomKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAED82E11D47A2D2008F24ED /* Debug */,
+				AAED82E21D47A2D2008F24ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAED82B31D47A2D2008F24ED /* Project object */;
+}
